@@ -1,99 +1,99 @@
-<html lang="es">
+<html lang="es-la">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/stylesheet.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico"/> 
+    <link rel="stylesheet" href="css/pruebaStyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap" rel="stylesheet">    
+    <meta name="description" content="Historia y presente de la bodega y viñedos de Vistalba">
+    <meta name="keywords" content="Bodega, Vistalba, Mendoza, Vino, Turismo, Historia, Viniticultura, Pasado, Presente">
     <title>Bodega Vistalba</title>
 </head>
 
 <body>
-    <header>
+  <header class="nave">
+        
+    <a class="nave__linklogo" href="index.html"><img class="linklogo__logo" src="images/vistalba.jpg" alt="logo vistalba"/></a>
+    <input type="checkbox" id="botonMenu">
+    <label class="nave__responsiveicon" for="botonMenu"><span class="responsiveicon__icon"></span></label>
+    <ul class="nave__list">
+        <li class="list__element">
+          <a class="element__link element__link--active" href="index.html">Inicio</a>
+        </li>
+        <li class="list__element">
+          <a class="element__link" href="experiencias.html">Experiencias</a>
+        </li>
+        <li class="list__element">
+          <a class="element__link" href="novedades.html">Novedades</a>
+        </li>
+        <li class="list__element">
+          <a class="element__link" href="tienda.html">Tienda</a>
+        </li>
+        <li class="list__element">
+          <a class="element__link" href="contacto.html">Contacto</a>
+        </li>
+    </ul>
+    <div class="nave__containericon">
+      <a href=""><img class="containericon__icon" src="images/user.png" alt="Mi Cuenta"></a>
+      <a href=""><img class="containericon__icon" src="images/carrito-de-compras.png" alt="Mi Carrito"/></a>
+    </div>
+  </header>
+  
+  <main class="index">
+    <div id="titles">
+      <h1>Nuestra bodega</h1>
+      <p>La historia la escribimos todos los dias, con tinta de uvas</p>
+    </div>
 
-        <div class="contenedorLogoNav">
-            <img class="logo" src="images/vistalba.jpg" alt="" />
-            <nav>
-                <ul class="navegadorContenedor">
-                    <li class="navegadorElemento">
-                        <a class="navegadorElementoLink" href="index.html">Inicio</a>
-                    </li>
-                    <li class="navegadorElemento">
-                        <a class="navegadorElementoLink" href="nuestrosvinos.html">Nuestros Vinos</a>
-                    </li>
-                    <li class="navegadorElemento">
-                        <a class="navegadorElementoLink" href="tienda.html">Tienda</a>
-                    </li>
-                    <li class="navegadorElemento">
-                        <a class="navegadorElementoLink active" href="novedades.html">Novedades</a>
-                    </li>
-                    <li class="navegadorElemento">
-                        <a class="navegadorElementoLink" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
+    <div class="index__element">
+      <article class="element__text">
+        <h2>Nuestro ayer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quasi
+            facilis tenetur commodi architecto, veritatis dignissimos nam esse
+            eius aut modi magnam minus dolor deserunt sunt ea inventore nisi
+            distinctio. Accusantium dolor officia architecto omnis eum
+            consequuntur impedit. Nemo soluta natus deleniti ea alias? Dicta,
+            culpa eveniet itaque numquam, optio neque voluptatum doloribus,
+            repellat dolore omnis ex eum laborum molestias?
+          </p>
+          <img class="element__image" src="images/home1.jpg" alt="Fotografia pasado vistalba" />
+      </article>
 
-            <div class="iconosContenedor">
-                <a href="">
-                    <img class="iconoNavegador" src="images/user.png" alt="Mi Cuenta">
-                </a>
-                <a href="">
-                    <img class="iconoNavegador" src="images/carrito-de-compras.png" alt="Mi Carrito" />
-                </a>
-            </div>
-        </div>
-    </header>
-
-        <main class="contenedorInicio">
-            <h1>La misma pasion de hace 100 años</h1>
-
-            <div class="inicioElementos">
-                <article class="inicioTexto">
-                    <h2>Nuestro ayer</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quasi
-                        facilis tenetur commodi architecto, veritatis dignissimos nam esse
-                        eius aut modi magnam minus dolor deserunt sunt ea inventore nisi
-                        distinctio. Accusantium dolor officia architecto omnis eum
-                        consequuntur impedit. Nemo soluta natus deleniti ea alias? Dicta,
-                        culpa eveniet itaque numquam, optio neque voluptatum doloribus,
-                        repellat dolore omnis ex eum laborum molestias?
-                    </p>
-                    <img class="inicioImagen" src="images/home1.jpg" alt="" />
-                </article>
-
-                <article class="inicioTexto">
-                    <h2>Nuestro hoy</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quasi
-                        facilis tenetur commodi architecto, veritatis dignissimos nam esse
-                        eius aut modi magnam minus dolor deserunt sunt ea inventore nisi
-                        distinctio. Accusantium dolor officia architecto omnis eum
-                        consequuntur impedit. Nemo soluta natus deleniti ea alias? Dicta,
-                        culpa eveniet itaque numquam, optio neque voluptatum doloribus,
-                        repellat dolore omnis ex eum laborum molestias?
-                    </p>
-                    <img class="inicioImagen" src="images/home2.jpg" alt="" />
-                </article>
-            </div>
-        </main>
-        <footer class="footer">
-            <ul class="footerElementos">
-                <li>
-                    <a href="https://www.facebook.com/bodegapenitentes">
-                        <img src="images/fbicon.svg" alt="FacebookLogo" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/bodegapenitentes/?hl=es-la">
-                        <img src="images/igicon.svg" alt="InstagramLogo" />
-                    </a>
-                </li>
-            </ul>
-            <p class="footerTexto">Copyright 2021®</p>
-        </footer>
+      <article class="element__text">
+        <h2>Nuestro hoy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quasi
+            facilis tenetur commodi architecto, veritatis dignissimos nam esse
+            eius aut modi magnam minus dolor deserunt sunt ea inventore nisi
+            distinctio. Accusantium dolor officia architecto omnis eum
+            consequuntur impedit. Nemo soluta natus deleniti ea alias? Dicta,
+            culpa eveniet itaque numquam, optio neque voluptatum doloribus,
+            repellat dolore omnis ex eum laborum molestias?
+          </p>
+          <img class="element__image" src="images/home2.jpg" alt="Fotografia actual vistalba" />
+      </article>
+  </div>
+</main>
+  
+  <footer class="footer">
+    <ul class="footer__element">
+      <li>
+          <a href="https://www.facebook.com/bodegapenitentes">
+            <img class="footer__icon" src="images/fbicon.svg" alt="FacebookLogo" />
+          </a>
+      </li>
+      <li>
+          <a href="https://www.instagram.com/bodegapenitentes/?hl=es-la">
+            <img class="footer__icon" src="images/igicon.svg" alt="InstagramLogo" />
+          </a>
+      </li>
+    </ul>
+    <p class="footer__text">Copyright 2021®</p>
+  </footer>
 </body>
 
 </html>

@@ -1,95 +1,159 @@
-<html lang="es">
+<html lang="es-la">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="shortcut icon" href="images/favicon.ico"/> 
+  <link rel="stylesheet" href="css/pruebaStyle.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap" rel="stylesheet">     
-  <title>Bodega Vistalba</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap" rel="stylesheet">    
+  <meta name="description" content="Tienda donde podras adquirir nuestros vinos y coordinar su envio hasta tu hogar">
+  <meta name="keywords" content="Bodega, Vistalba, Mendoza, Vino, Tinto, Blanco, Bebidas alcoholicas, cabernet franc, chardonnay, cabernet suavignon, suavignon blanc, Viniticultura">
+  <title>Tienda de Bodega Vistalba</title>
 </head>
 
 <body>
-  <header>
-    <div class="contenedorLogoNav">
-      <img class="logo" src="images/vistalba.jpg" alt="">
-      <nav>
-        <ul class="navegadorContenedor">
-          <li class="navegadorElemento"><a class="navegadorElementoLink" href="index.html">Inicio</a></li>
-          <li class="navegadorElemento"><a class="navegadorElementoLink" href="nuestrosvinos.html">Nuestros Vinos</a>
-          </li>
-          <li class="navegadorElemento"><a class="navegadorElementoLink active" href="tienda.html">Tienda</a></li>
-          <li class="navegadorElemento"><a class="navegadorElementoLink" href="novedades.html">Novedades</a></li>
-          <li class="navegadorElemento"><a class="navegadorElementoLink" href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-      <div class="iconosContenedor">
-        <a href=""><img class="iconoNavegador" src="images/user.png" alt="Mi Cuenta"></a>
-        <a href=""><img class="iconoNavegador" src="images/carrito-de-compras.png" alt="Mi Carrito"></a>
-      </div>
+  <header class="nave">
+        
+    <a class="nave__linklogo" href="index.html"><img class="linklogo__logo" src="images/vistalba.jpg" alt="logo vistalba"/></a>
+    <input type="checkbox" id="botonMenu">
+    <label class="nave__responsiveicon" for="botonMenu"><span class="responsiveicon__icon"></span></label>
+    <ul class="nave__list">
+        <li class="list__element">
+          <a class="element__link" href="index.html">Inicio</a>
+        </li>
+        <li class="list__element">
+          <a class="element__link" href="experiencias.html">Experiencias</a>
+        </li>
+        <li class="list__element">
+          <a class="element__link" href="novedades.html">Novedades</a>
+        </li>
+        <li class="list__element">
+          <a class="element__link element__link--active" href="tienda.html">Tienda</a>
+        </li>
+        <li class="list__element">
+          <a class="element__link" href="contacto.html">Contacto</a>
+        </li>
+    </ul>
+    <div class="nave__containericon">
+      <a href=""><img class="containericon__icon" src="images/user.png" alt="Mi Cuenta"></a>
+      <a href=""><img class="containericon__icon" src="images/carrito-de-compras.png" alt="Mi Carrito"/></a>
     </div>
   </header>
 
+  <main class="shop">
+    
+    <div id="titles">
+        <h1>Tienda</h1>
+        <p>Cada uno de ellos, te enseñara un camino..</p>
+    </div>  
 
-  <main class="contenedorTienda">
-    <div class="contenedorTitulo">
-      <h1>Tienda</h1>
-    </div>
+    <div class="shop__flex">
+        <div class="flex__card">
+            <div class="card__animated">
+                <div class="animated__side">
+                    <img class="side__wineimg" src="images/botella.png" alt="Botella Cabernet Franc">
+                    <div class="side__wineinfo"> 
+                      <h2>Cabernet Franc - Vieja Cosecha</h2>
+                      <p>Compuesto por un blend de terroir, nuestro cabernet franc, pasa 12 meses de cria en roblea americano, y 6
+                      meses de guardado en tanque hasta su embotellado</p>
+                    </div>      
+                </div>
+                
+                <div class="animated__bside">
+                    <img class="side__wineimg" src="images/botella.png" alt="Botella Cabernet Franc">
+                      <div class="side__wineinfo">
+                          <h2>Cabernet Franc - Vieja Cosecha</h2>
+                          <p>$400 p/u</p>
+                          <button class="bside__buybutton">Comprar</button>
+                      </div>
+                </div>      
+            </div>
+        </div> 
+            
+        <div class="flex__card">
+          <div class="card__animated">
+              <div class="animated__side">
+                <img class="side__wineimg" src="images/botella2.png" alt="Botella Suavignon Blanc">
+                <div class="side__wineinfo"> 
+                  <h2>Suavignon Blanc - Navio</h2>
+                  <p>Vino joven con 6 meses de cria en vasijas de barro y madera, el mismo despierta fragancias dulces que
+                  recuerdan a una primavera floral</p>
+              </div>    
+              </div>
 
-    <div class="grillaTienda">
-      <div class="vinosContenedor">
-        <img class="vinoImagen" src="images/botella.jpg" alt="Cabernet Franc">
-        <div class="vinoInformacion">
-          <h2>Cabernet Franc</h2>
-          <p>$400 p/u</p>
-          <button class="vinoComprar">Comprar</button>
+              <div class="animated__bside">
+                <img class="side__wineimg" src="images/botella2.png" alt="Botella Suavignon Blanc">
+                <div class="side__wineinfo">
+                  <h2>Suavignon Blanc - Navio</h2>
+                  <p>$400 p/u</p>
+                  <button class="bside__buybutton">Comprar</button>
+                </div>
+              </div>      
+            </div>
         </div>
-      </div>
-
-      <div class="vinosContenedor">
-        <img class="vinoImagen" src="images/botella3.jpg" alt="Cabernet Suavignon">
-        <div class="vinoInformacion">
-          <h2>Cabernet Suavignon</h2>
-          <p>$500 p/u</p>
-          <button class="vinoComprar">Comprar</button>
+        
+        <div class="flex__card">
+          <div class="card__animated">
+            <div class="animated__side">
+              <img class="side__wineimg" src="images/botella3.png" alt="Botella Cabernet Suavignon">
+              <div class="side__wineinfo">
+                <h2>Cabernet Suavignon - Espinado</h2>
+                <p>Con 18 meses en paso en barricas de roble frances y roble americano, nuestro cabernet suavignon destaca por
+                sus notas ahumadas</p>
+              </div>   
+            </div>
+          
+            <div class="animated__bside">
+              <img class="side__wineimg" src="images/botella3.png" alt="Botella Cabernet Suavignon">
+              <div class="side__wineinfo">
+                <h2>Cabernet Suavignon - Espinado</h2>
+                <p>$400 p/u</p>
+                <button class="bside__buybutton">Comprar</button>
+              </div>
+            </div>      
+          </div>
         </div>
-      </div>
 
-      <div class="vinosContenedor">
-        <img class="vinoImagen" src="images/botella2.jpg" alt="Suavignon Blanc">
-        <div class="vinoInformacion">
-          <h2>Suavignon Blanc</h2>
-          <p>$400 p/u</p>
-          <button class="vinoComprar">Comprar</button>
-        </div>
-      </div>
+        <div class="flex__card">
+          <div class="card__animated">
+            <div class="animated__side">
+              <img class="side__wineimg" src="images/botella4.png" alt="Botella Chardonnay">
+              <div class="side__wineinfo">
+                <h2>Chardonnay - Ornamento</h2>
+                <p>Vino de 12 meses de cria en guatambu, el mismo posee su acidez caracteristica, pero con un toque de maderas
+                que recuerdan a nuestra patagonia</p>
+              </div>    
+            </div>
 
-      <div class="vinosContenedor">
-        <img class="vinoImagen" src="images/botella4.jpg" alt="Chardonnay">
-        <div class="vinoInformacion">
-          <h2>Chardonnay</h2>
-          <p>$450 p/u</p>
-          <button class="vinoComprar">Comprar</button>
+          <div class="animated__bside">
+            <img class="side__wineimg" src="images/botella4.png" alt="Botella Chardonnay">
+            <div class="side__wineinfo">
+              <h2>Chardonnay - Ornamento</h2>
+              <p>$400 p/u</p>
+              <button class="bside__buybutton">Comprar</button>
+            </div>
+          </div>      
         </div>
       </div>
     </div>
   </main>
 
   <footer class="footer">
-    <ul class="footerElementos">
+    <ul class="footer__element">
       <li>
-        <a href="https://www.facebook.com/bodegapenitentes">
-          <img src="images/fbicon.svg" alt="FacebookLogo">
-        </a>
+          <a href="https://www.facebook.com/bodegapenitentes">
+            <img class="footer__icon" src="images/fbicon.svg" alt="FacebookLogo" />
+          </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/bodegapenitentes/?hl=es-la">
-          <img src="images/igicon.svg" alt="InstagramLogo">
-        </a>
+          <a href="https://www.instagram.com/bodegapenitentes/?hl=es-la">
+            <img class="footer__icon" src="images/igicon.svg" alt="InstagramLogo" />
+          </a>
       </li>
     </ul>
-    <p class="footerTexto">Copyright 2021®</p>
+    <p class="footer__text">Copyright 2021®</p>
   </footer>
 </body>
 
