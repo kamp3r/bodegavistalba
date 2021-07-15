@@ -52,7 +52,7 @@ p {
   .nave #botonMenu {
     display: none; }
   .nave #botonMenu:checked ~ .nave__list {
-    max-height: 30rem; }
+    max-height: 45rem; }
   .nave #botonMenu:checked ~ .nave__responsiveicon {
     background: transparent; }
   .nave #botonMenu:checked ~ .nave__responsiveicon:before {
