@@ -1,35 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Bodega Penitentes</title>
-</head>
+<html lang="es">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap" rel="stylesheet">     
+  <title>Bodega Vistalba</title>
+</head>
 <body>
   <header>
-    <div class="contenedorLogo">
-      <a href="index.html"><img class="logo" src="images/Penitentes.jpg" alt="Penitentes"></a>
-    </div>
-
-    <div class="contenedorNavegacion">
-      <nav class="navegacion">
-        <ul class="navegacionElementos"">
-          <li><a class=" navegacionElementosLink" href="index.html">home</a></li>
-          <li><a class="navegacionElementosLink" href="nuestros_vinos.html">nuestros vinos</a></li>
-          <li><a class="navegacionElementosLink" href="tienda.html">tienda</a></li>
-          <li><a class="navegacionElementosLink" href="novedades.html">novedades</a></li>
-          <li><a class="navegacionElementosLink active" href="contacto.html">contacto</a></li>
+    <div class="contenedorLogoNav">
+      <img class="logo" src="images/vistalba.jpg" alt="">
+      <nav>
+        <ul class="navegadorContenedor">
+          <li class="navegadorElemento"><a class="navegadorElementoLink" href="index.html">Inicio</a></li>
+          <li class="navegadorElemento"><a class="navegadorElementoLink" href="nuestrosvinos.html">Nuestros Vinos</a></li>
+          <li class="navegadorElemento"><a class="navegadorElementoLink" href="tienda.html">Tienda</a></li>
+          <li class="navegadorElemento"><a class="navegadorElementoLink" href="novedades.html">Novedades</a></li>
+          <li class="navegadorElemento"><a class="navegadorElementoLink active" href="contacto.html">Contacto</a></li>
         </ul>
       </nav>
+      <div class="iconosContenedor">
+        <a href=""><img class="iconoNavegador" src="images/user.png" alt="Mi Cuenta"></a>
+        <a href=""><img class="iconoNavegador" src="images/carrito-de-compras.png" alt="Mi Carrito"></a>
+      </div>
     </div>
   </header>
+
 
   <main class="fondoContacto">
     <div class="contenedorTitulo">
@@ -38,14 +37,17 @@
 
     <form class="formularioContacto" action="" method="POST">
       <div class="formularioCampos">
+
         <div class="campo">
           <label for="camponombre">Nombre </label><input class="inputText" id="camponombre" type="text"
             placeholder="Nombre" />
         </div>
+
         <div class="campo">
           <label for="campoapellido">Apellido </label><input class="inputText" id="campoapellido" type="text"
             placeholder="Apellido" />
         </div>
+
         <div class="campo">
           <label for="campoedad">Desde donde nos escribis </label>
           <select class="inputText" id="campoedad">
@@ -57,19 +59,24 @@
             <option value="5">Resto del Mundo</option>
           </select>
         </div>
+
         <div class="campo">
           <label for="campoemail">E-Mail </label><input class="inputText" id="campoemail" type="email"
             placeholder="tuemail@ejemplo.com" />
         </div>
+
         <div class="campo">
           <label>Escribinos tus comentarios o sugerencias:</label>
           <textarea class="inputText" name="comentario" id="campo" cols="30" rows="10"
             placeholder="Tus comentarios van aqui"></textarea>
         </div>
+
         <div class="contenedorBotones">
-          <input class="boton" type="reset" value="Borrar formulario" />
-          <input class="boton" type="submit" value="Enviar solicitud" />
+          <input class="boton" type="reset" value="Borrar" />
+          <input class="boton" type="submit" value="Enviar" />
         </div>
+        
+      </div>  
     </form>
   </main>
 
@@ -77,16 +84,18 @@
     <ul class="footerElementos">
       <li>
         <a href="https://www.facebook.com/bodegapenitentes">
-          <img src="images/fbicon.svg" alt="FacebookLogo">
+          <img src="images/fbicon.svg" alt="FacebookLogo" />
         </a>
       </li>
       <li>
         <a href="https://www.instagram.com/bodegapenitentes/?hl=es-la">
-          <img src="images/igicon.svg" alt="InstagramLogo">
+          <img src="images/igicon.svg" alt="InstagramLogo" />
         </a>
       </li>
     </ul>
     <p class="footerTexto">Copyright 2021®</p>
   </footer>
+
 </body>
+
 </html>
