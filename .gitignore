@@ -1,0 +1,9 @@
+#modulos node
+node_modules/
+
+#packagesjson
+package-lock.json*
+package.json*
+
+#scss
+scss/
