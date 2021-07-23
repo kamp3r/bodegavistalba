@@ -183,8 +183,9 @@ p {
           color: #fff;
           font-size: 2rem; }
       .index .index__element .element__text p {
-        margin: 2rem auto;
-        text-align: center; }
+        margin: auto 2rem;
+        text-align: justify;
+        padding: 2rem; }
     .index .index__element .element__image {
       width: 90%;
       border-radius: 2rem;
