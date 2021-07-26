@@ -545,14 +545,16 @@ p {
     .new .carousel-inner .carousel-item__news {
       flex-direction: column;
       width: 85%; }
+      .new .carousel-inner .carousel-item__news img {
+        max-width: 90%; }
       .new .carousel-inner .carousel-item__news .text__button {
         padding: 1rem;
         max-width: 70%; }
   .new .new__container .container__news {
     flex-direction: column;
-    text-align: center;
-    align-items: unset; }
+    text-align: center; }
     .new .new__container .container__news img {
+      max-width: 95%;
       margin: 3rem auto; }
     .new .new__container .container__news p {
       word-spacing: 0.1rem; }
