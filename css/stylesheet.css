@@ -37,7 +37,7 @@ p {
   font-family: "Montserrat", sans-serif; }
 
 /*logo y Nav*/
-.nave {
+.navigation {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,36 +45,36 @@ p {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   width: 100%;
   max-height: 50%; }
-  .nave .linklogo__logo {
+  .navigation .linkLogo__logo {
     height: 12rem;
     max-width: 100%;
     object-fit: scale-down; }
-  .nave #botonMenu {
+  .navigation #botonMenu {
     display: none; }
-  .nave #botonMenu:checked ~ .nave__list {
+  .navigation #botonMenu:checked ~ .navigation__list {
     max-height: 45rem; }
-  .nave #botonMenu:checked ~ .nave__responsiveicon {
+  .navigation #botonMenu:checked ~ .navigation__responsiveIcon {
     background: transparent; }
-  .nave #botonMenu:checked ~ .nave__responsiveicon:before {
+  .navigation #botonMenu:checked ~ .navigation__responsiveIcon:before {
     transform: rotate(-45deg);
     top: 0; }
-  .nave #botonMenu:checked ~ .nave__responsiveicon:after {
+  .navigation #botonMenu:checked ~ .navigation__responsiveIcon:after {
     transform: rotate(45deg);
     top: 0; }
-  .nave .nave__responsiveicon {
+  .navigation .navigation__responsiveIcon {
     cursor: pointer;
     float: right;
     padding: 28px 20px;
     position: relative;
     user-select: none; }
-    .nave .nave__responsiveicon .responsiveicon__icon {
+    .navigation .navigation__responsiveIcon .responsiveIcon__icon {
       background: #ffce63;
       display: block;
       height: 2px;
       position: relative;
       transition: background .2s ease-out;
       width: 18px; }
-      .nave .nave__responsiveicon .responsiveicon__icon:before, .nave .nave__responsiveicon .responsiveicon__icon:after {
+      .navigation .navigation__responsiveIcon .responsiveIcon__icon:before, .navigation .navigation__responsiveIcon .responsiveIcon__icon:after {
         background: #FFCE64;
         content: '';
         display: block;
@@ -82,11 +82,11 @@ p {
         position: absolute;
         transition: all .2s ease-out;
         width: 100%; }
-      .nave .nave__responsiveicon .responsiveicon__icon:before {
+      .navigation .navigation__responsiveIcon .responsiveIcon__icon:before {
         top: 5px; }
-      .nave .nave__responsiveicon .responsiveicon__icon:after {
+      .navigation .navigation__responsiveIcon .responsiveIcon__icon:after {
         top: -5px; }
-  .nave .nave__list {
+  .navigation .navigation__list {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -95,7 +95,7 @@ p {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out; }
-    .nave .nave__list .list__element {
+    .navigation .navigation__list .list__element {
       display: flex;
       justify-content: center;
       padding: 0.7rem;
@@ -103,32 +103,32 @@ p {
       font-size: 1.8rem;
       font-weight: 500;
       font-family: "Cinzel", serif; }
-      .nave .nave__list .list__element .element__link {
+      .navigation .navigation__list .list__element .element__link {
         text-decoration: none;
         color: #fafafa; }
-        .nave .nave__list .list__element .element__link:hover {
+        .navigation .navigation__list .list__element .element__link:hover {
           color: #FFCE64; }
-        .nave .nave__list .list__element .element__link::after {
+        .navigation .navigation__list .list__element .element__link::after {
           content: "";
           display: block;
           width: 0;
           height: 2px;
           background: #9e792a;
           transition: width 0.3s; }
-        .nave .nave__list .list__element .element__link:hover::after {
+        .navigation .navigation__list .list__element .element__link:hover::after {
           width: 100%;
           transition: width 0.3s; }
-      .nave .nave__list .list__element .element__link--active:visited {
+      .navigation .navigation__list .list__element .element__link--active:visited {
         color: #FFCE64;
         text-decoration: none;
         font-size: 1.5rem;
         font-weight: 500;
         font-family: "Cinzel", serif; }
-  .nave .containericon__icon {
+  .navigation .containerIcon__icon {
     height: 5rem;
     width: 5rem;
     text-decoration: none; }
-  .nave .containericon__icon:hover {
+  .navigation .containerIcon__icon:hover {
     filter: saturate(0%); }
 
 /*Footer*/
@@ -158,7 +158,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%; }
-  .index .index__element {
+  .index .index__history {
     margin-top: 6rem;
     display: grid;
     max-width: 100%;
@@ -166,27 +166,27 @@ p {
     align-items: center;
     justify-items: center;
     grid-template-areas: "TEXTO TEXTO"; }
-    .index .index__element .element__text {
+    .index .index__history .history__text {
       background-color: rgba(255, 255, 255, 0.6);
       width: 70%;
       text-align: center;
       border-radius: 2rem;
       padding: 1.5rem;
       font-size: 1.5rem; }
-      .index .index__element .element__text h2 {
+      .index .index__history .history__text h2 {
         margin: 2rem;
         font-size: 2.5rem;
         font-weight: bold;
         background-color: #29304d;
         color: #fabe3d; }
-        .index .index__element .element__text h2 span {
+        .index .index__history .history__text h2 span {
           color: #fff;
           font-size: 2rem; }
-      .index .index__element .element__text p {
+      .index .index__history .history__text p {
         margin: auto 2rem;
         text-align: justify;
         padding: 2rem; }
-    .index .index__element .element__image {
+    .index .index__history .history__image {
       width: 90%;
       border-radius: 2rem;
       padding: 1rem; }
@@ -523,10 +523,10 @@ p {
     #titles h1 {
       font-size: 2.2rem; }
   /*inicio*/
-  .index .index__element {
+  .index .index__history {
     display: flex;
     flex-direction: column; }
-    .index .index__element .element__text {
+    .index .index__history .history__text {
       margin: 2rem; }
   /*experiencias*/
   .experiencias__bg .gridexperiencias {
@@ -591,10 +591,10 @@ p {
 @media screen and (min-width: 600px) {
   h1 {
     font-size: 3rem; }
-  .index .index__element {
+  .index .index__history {
     display: flex;
     flex-direction: column; }
-    .index .index__element .element__text {
+    .index .index__history .history__text {
       margin: 2rem; }
   /*experiencias*/
   .experiencias__bg .gridexperiencias {
@@ -660,16 +660,16 @@ p {
         font-size: 1.5rem; } }
 
 @media screen and (min-width: 768px) {
-  .nave .nave__responsiveicon {
+  .navigation .navigation__responsiveIcon {
     display: none; }
-  .nave .nave__list {
+  .navigation .navigation__list {
     clear: none;
     float: right;
     max-height: none; }
-    .nave .nave__list .list__element {
+    .navigation .navigation__list .list__element {
       justify-content: space-between;
       float: left; }
-      .nave .nave__list .list__element .element__link {
+      .navigation .navigation__list .list__element .element__link {
         padding: 1.2rem; }
   /*Novedades*/
   .news__bg .news__container {
@@ -692,26 +692,26 @@ p {
       transform: none; } }
 
 @media screen and (min-width: 960px) {
-  .nave {
+  .navigation {
     flex-direction: row;
     align-items: center;
     justify-content: space-around; }
-    .nave .nave__linklogo {
+    .navigation .navigation__linkLogo {
       width: 25%; }
-    .nave .linklogo__logo {
+    .navigation .linkLogo__logo {
       width: 100%; }
-    .nave .nave__list {
+    .navigation .navigation__list {
       width: 80%;
       display: flex;
       justify-content: center; }
-      .nave .nave__list .list__element {
+      .navigation .navigation__list .list__element {
         padding: .3rem; }
-        .nave .nave__list .list__element .element__link {
+        .navigation .navigation__list .list__element .element__link {
           font-size: 2rem; }
   /*Index*/
-  .index .index__element .element__text {
+  .index .index__history .history__text {
     width: 80%; }
-    .index .index__element .element__text .element__image {
+    .index .index__history .history__text .history__image {
       width: 70%; }
   /*Novedades*/
   .new .carousel-inner .carousel-item__news {
@@ -747,7 +747,7 @@ p {
   /*tienda*/
   .shop__bg .shop__container {
     flex-wrap: nowrap; }
-  .index .index__element {
+  .index .index__history {
     display: grid; }
   .experiencias__bg .gridexperiencias {
     display: grid; }

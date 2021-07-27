@@ -4,21 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="images/favicon.ico"/> 
-  <link rel="stylesheet" href="css/stylesheet.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap" rel="stylesheet">     
   <meta name="description" content="Pagina de contacto de la Bodega Vistalba, nos interesa tu opinion">
   <meta name="keywords" content="Bodega, Vistalba, Mendoza, contacto, formulario, horarios, mapa, direccion, Viniticultura">
+  <link rel="shortcut icon" href="images/favicon.ico"/> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap" rel="stylesheet">     
+  <link rel="stylesheet" href="css/stylesheet.css">
   <title>Contactate con nosostros</title>
 </head>
 <body>
-  <header class="nave">
+  <header class="navigation">
         
-    <a class="nave__linklogo" href="index.html"><img class="linklogo__logo" src="images/vistalba.jpg" alt="logo vistalba"/></a>
+    <a class="navigation__linkLogo" href="index.html"><img class="linkLogo__logo" src="images/vistalba.jpg" alt="logo vistalba"/></a>
     <input type="checkbox" id="botonMenu">
-    <label class="nave__responsiveicon" for="botonMenu"><span class="responsiveicon__icon"></span></label>
-    <ul class="nave__list">
+    <label class="navigation__responsiveIcon" for="botonMenu"><span class="responsiveIcon__icon"></span></label>
+    <ul class="navigation__list">
         <li class="list__element">
           <a class="element__link" href="index.html">Inicio</a>
         </li>
@@ -29,15 +29,15 @@
           <a class="element__link" href="novedades.html">Novedades</a>
         </li>
         <li class="list__element">
-          <a class="element__link" href="tienda.html">Tienda</a>
+          <a class="element__link element__link--active" href="tienda.html">Tienda</a>
         </li>
         <li class="list__element">
-          <a class="element__link element__link--active" href="contacto.html">Contacto</a>
+          <a class="element__link" href="contacto.html">Contacto</a>
         </li>
     </ul>
-    <div class="nave__containericon">
-      <a href=""><img class="containericon__icon" src="images/user.png" alt="Mi Cuenta"></a>
-      <a href=""><img class="containericon__icon" src="images/carrito-de-compras.png" alt="Mi Carrito"/></a>
+    <div class="navigation__containerIcon">
+      <a href=""><img class="containerIcon__icon" src="images/user.png" alt="Mi Cuenta"></a>
+      <a href=""><img class="containerIcon__icon" src="images/carrito-de-compras.png" alt="Mi Carrito"/></a>
     </div>
   </header>
 
@@ -77,8 +77,8 @@
         </div>
 
         <div class="container__field">
-          <label>Dejanos tu comentario:</label>
-          <textarea class="field__input" name="comentario" id="campo" cols="30" rows="10"
+          <label for="campocomentario">Dejanos tu comentario:</label>
+          <textarea class="field__input" name="comentario" id="campocomentario" cols="30" rows="10"
             placeholder="Tus comentarios van aqui"></textarea>
         </div>
 
@@ -118,12 +118,12 @@
   <footer class="footer">
     <ul class="footer__element">
       <li>
-        <a href="https://www.facebook.com/bodegapenitentes">
+        <a target="_blank" href="https://www.facebook.com/bodegapenitentes">
           <img class="footer__icon" src="images/fbicon.svg" alt="FacebookLogo" />
         </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/bodegapenitentes/?hl=es-la">
+        <a target="_blank" href="https://www.instagram.com/bodegapenitentes/?hl=es-la">
           <img class="footer__icon" src="images/igicon.svg" alt="InstagramLogo" />
         </a>
       </li>
