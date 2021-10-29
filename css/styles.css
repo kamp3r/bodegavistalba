@@ -1,0 +1,1400 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.05rem;
+}
+
+main {
+  min-height: calc(110vh - 10rem - 10rem);
+}
+
+#titles {
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1e253fad;
+  color: #fabe3d;
+  padding: 5rem 0;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  margin-bottom: 4rem;
+}
+#titles p {
+  color: #fafafa;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  margin: 2rem;
+}
+
+h2, h3 {
+  font-family: "Cinzel", serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*logo y Nav*/
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #171c30;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-height: 50%;
+}
+.navigation .linkLogo__logo {
+  height: 12rem;
+  max-width: 100%;
+  object-fit: scale-down;
+}
+.navigation #botonMenu {
+  display: none;
+}
+.navigation #botonMenu:checked ~ .navigation__list {
+  max-height: 45rem;
+}
+.navigation #botonMenu:checked ~ .navigation__responsiveIcon {
+  background: transparent;
+}
+.navigation #botonMenu:checked ~ .navigation__responsiveIcon:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+.navigation #botonMenu:checked ~ .navigation__responsiveIcon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+.navigation .navigation__responsiveIcon {
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+.navigation .navigation__responsiveIcon .responsiveIcon__icon {
+  background: #ffce63;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+.navigation .navigation__responsiveIcon .responsiveIcon__icon:before, .navigation .navigation__responsiveIcon .responsiveIcon__icon:after {
+  background: #FFCE64;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+.navigation .navigation__responsiveIcon .responsiveIcon__icon:before {
+  top: 5px;
+}
+.navigation .navigation__responsiveIcon .responsiveIcon__icon:after {
+  top: -5px;
+}
+.navigation .navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #171c30;
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+.navigation .navigation__list .list__element {
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "Cinzel", serif;
+}
+.navigation .navigation__list .list__element .element__link {
+  text-decoration: none;
+  color: #fafafa;
+}
+.navigation .navigation__list .list__element .element__link:hover {
+  color: #FFCE64;
+}
+.navigation .navigation__list .list__element .element__link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #9e792a;
+  transition: width 0.3s;
+}
+.navigation .navigation__list .list__element .element__link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.navigation .navigation__list .list__element .element__link--active:visited {
+  color: #FFCE64;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Cinzel", serif;
+}
+.navigation .navigation__containerIcon {
+  text-align: center;
+  width: 50rem;
+}
+.navigation .navigation__containerIcon .submenu {
+  list-style: none;
+  position: relative;
+}
+.navigation .navigation__containerIcon .submenu .containerIcon__icon {
+  height: 5rem;
+  width: 5rem;
+  text-decoration: none;
+}
+.navigation .navigation__containerIcon .submenu #carrito {
+  display: none;
+}
+.navigation .navigation__containerIcon .submenu #carrito .botonVaciar {
+  display: inline-block;
+  height: 38px;
+  margin: 2rem;
+  padding: 0 30px;
+  color: #FFCE64;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #9e792a;
+  border-top-color: #9e792a;
+  border-right-color: #9e792a;
+  border-bottom-color: #9e792a;
+  border-left-color: #9e792a;
+  cursor: pointer;
+}
+.navigation .navigation__containerIcon .submenu:hover #carrito {
+  display: block;
+  background-color: #171c30;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  padding: 3rem;
+  min-height: 40rem;
+  min-width: 30rem;
+}
+.navigation .navigation__containerIcon .submenu:hover #carrito table {
+  font-family: "Cinzel", serif;
+  border-collapse: collapse;
+  border: none;
+}
+.navigation .navigation__containerIcon .submenu:hover #carrito table tr {
+  text-transform: uppercase;
+  color: #FFCE64;
+  border-spacing: 2rem;
+}
+.navigation .navigation__containerIcon .submenu:hover #carrito table tr th, .navigation .navigation__containerIcon .submenu:hover #carrito table tr td {
+  padding: 1.1rem 1.2rem;
+  border-bottom: 1px solid #9e792a;
+  text-align: left;
+}
+.navigation .navigation__containerIcon .submenu:hover #carrito table tr th:first-child,
+.navigation .navigation__containerIcon .submenu:hover #carrito table tr td:first-child {
+  padding-left: 0;
+}
+.navigation .navigation__containerIcon .submenu:hover #carrito table tr th:last-child,
+.navigation .navigation__containerIcon .submenu:hover #carrito table tr td:last-child {
+  padding-right: 0;
+}
+.navigation .navigation__containerIcon .submenu:hover #carrito table tbody .cantidadVinos {
+  font-size: 1.4rem;
+}
+.navigation .navigation__containerIcon .submenu:hover #carrito table tbody tr td {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.navigation .navigation__containerIcon .submenu:hover #carrito table tbody .borrar-curso {
+  cursor: pointer;
+}
+.navigation .containerIcon__icon:hover {
+  filter: saturate(0%);
+}
+
+/*Footer*/
+.footer {
+  height: 10rem;
+  width: 100%;
+  bottom: 0;
+  background-color: #171c30;
+}
+.footer .footer__element {
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.footer .footer__element li a .footer__icon:hover {
+  filter: saturate(0%);
+}
+.footer .footer__text {
+  color: #FFCE64;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+/*Index*/
+.index {
+  background-image: url(../images/preindexfondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.index .index__history {
+  margin-top: 6rem;
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: "TEXTO TEXTO";
+}
+.index .index__history .history__text {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 70%;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+.index .index__history .history__text h2 {
+  margin: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #29304d;
+  color: #fabe3d;
+}
+.index .index__history .history__text h2 span {
+  color: #fff;
+  font-size: 2rem;
+}
+.index .index__history .history__text p {
+  margin: auto 2rem;
+  text-align: justify;
+  padding: 2rem;
+}
+.index .index__history .history__image {
+  width: 90%;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+/*Experiencias*/
+.experiencias__bg {
+  background-image: url(../images/fondoExperiencias.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.experiencias__bg .gridexperiencias {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem 1rem;
+  justify-items: center;
+  grid-template-areas: "gridexperiencias__column gridexperiencias__column2 gridexperiencias__column3" "gridexperiencias__column gridexperiencias__column2 gridexperiencias__column3";
+  text-align: center;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column {
+  grid-area: gridexperiencias__column;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column2 {
+  grid-area: gridexperiencias__column2;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column3 {
+  grid-area: gridexperiencias__column3;
+}
+.experiencias__bg .gridexperiencias #grilla1 {
+  background-color: #416877;
+  border-radius: 1rem;
+  box-shadow: 0.4rem -0.1rem 0.4rem black;
+  width: 95%;
+}
+.experiencias__bg .gridexperiencias #grilla2 {
+  background-color: #36486b;
+  border-radius: 1rem;
+  box-shadow: 0.4rem -0.1rem 0.4rem black;
+  width: 95%;
+}
+.experiencias__bg .gridexperiencias #grilla3 {
+  background-color: #585674;
+  border-radius: 1rem;
+  box-shadow: 0.4rem -0.1rem 0.4rem black;
+  width: 95%;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__image, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__image, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__image {
+  padding: 2rem;
+  max-width: 95%;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__title, .experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__title3, .experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__title2, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__title, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__title3, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__title2, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__title, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__title3, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__title2 {
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  color: #ffce64;
+  background-color: #314f59;
+  margin: 0 3rem;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__title2, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__title2, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__title2 {
+  background-color: #293652;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__title3, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__title3, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__title3 {
+  background-color: #46445c;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__text, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__text, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__text {
+  text-align: justify;
+  font-size: 1.4rem;
+  margin: 3rem;
+  color: #fff;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button, .experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button3, .experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button2, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button3, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button2, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button3, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button2 {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border-width: 1px;
+  background-color: #314f59;
+  color: #ffce64;
+  border-color: #0a0000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  box-shadow: inset 1px 1px 11px 4px #6e6e8a;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button3:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button2:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button3:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button2:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button3:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button2:hover {
+  background-color: #416877;
+  cursor: pointer;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button2, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button2, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button2 {
+  background-color: #293652;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button2:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button2:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button2:hover {
+  background-color: #36486b;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button3, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button3, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button3 {
+  background-color: #46445c;
+}
+.experiencias__bg .gridexperiencias .gridexperiencias__column .actividad__button3:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column2 .actividad__button3:hover, .experiencias__bg .gridexperiencias .gridexperiencias__column3 .actividad__button3:hover {
+  background-color: #585674;
+}
+
+/*novedades*/
+.new {
+  background-image: url(../images/fondoNovedades.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new .carousel-inner {
+  margin: 10rem auto;
+  max-width: 60%;
+}
+.new .carousel-inner .carousel-item__news {
+  display: flex;
+  align-items: center;
+  background-color: #172250c9;
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.new .carousel-inner .carousel-item__news img {
+  max-width: 70%;
+  height: 30rem;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+.new .carousel-inner .carousel-item__news .news__text {
+  color: #fabe3d;
+  text-align: center;
+}
+.new .carousel-inner .carousel-item__news .news__text p {
+  color: #fafafa;
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: bolder;
+  margin-top: 5rem;
+}
+.new .carousel-inner .carousel-item__news .news__text .text__button {
+  display: inline-block;
+  background-color: #fabe3d;
+  color: white;
+  padding: 1rem 3rem;
+  margin: 4rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 1rem;
+  min-height: 5%;
+  width: 100%;
+  border: none;
+}
+.new .carousel-inner .carousel-item__news .news__text .text__button:hover {
+  background: #f8cf75;
+  color: black;
+}
+.new .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.new .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.new .new__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.new .new__container .container__news {
+  display: flex;
+  align-items: center;
+  background-color: #172250c9;
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.new .new__container .container__news img {
+  max-width: 70%;
+  height: 30rem;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+.new .new__container .container__news .news__text {
+  color: #fabe3d;
+  text-align: center;
+}
+.new .new__container .container__news .news__text p {
+  color: #fafafa;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-top: 5rem;
+}
+.new .new__container .container__news .news__text .text__button {
+  display: inline-block;
+  background-color: #fabe3d;
+  color: white;
+  padding: 1rem 3rem;
+  margin: 4rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 1rem;
+  min-height: 5%;
+  width: 40%;
+  border: none;
+}
+.new .new__container .container__news .news__text .text__button:hover {
+  background: #f8cf75;
+  color: black;
+}
+
+/*Shop*/
+.shop {
+  background-image: url(../images/fondoTienda.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shop .shop__flex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.shop .shop__flex .flex__card {
+  background-color: transparent;
+  width: 40rem;
+  height: 60rem;
+  margin: 2rem;
+}
+.shop .shop__flex .flex__card .card__animated {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.shop .shop__flex .flex__card .card__animated .animated__side {
+  background-color: #1e253fe8;
+  color: #fff;
+  border-radius: 2rem;
+}
+.shop .shop__flex .animated__bside {
+  background-color: #1e253ffd;
+  color: #fff;
+  transform: rotateY(180deg);
+  border-radius: 2rem;
+}
+.shop .shop__flex .animated__bside .bside__buybutton {
+  background-image: radial-gradient(circle, #171c30 0%, #2c324b 46%, #374e53 100%);
+  text-decoration: none;
+  max-width: 50%;
+  padding: 2rem;
+  font-family: var(--sfont);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #fabe3d;
+  background-color: #5b636e;
+  border-radius: 3rem;
+  border-color: #fabe3d;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.shop .shop__flex .side__wineimg {
+  border-radius: 2rem;
+  max-width: 100%;
+}
+.shop .shop__flex .side__wineinfo h2 {
+  margin: 2rem;
+  font-size: 1.5rem;
+  background-color: #404c7c;
+  color: #fabe3d;
+}
+.shop .shop__flex .side__wineinfo p {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.shop .shop__flex .flex__card:hover .card__animated {
+  transform: rotateY(-180deg);
+}
+.shop .shop__flex .animated__side, .shop .shop__flex .animated__bside {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/*Contacto*/
+.bg__form {
+  background-image: url(../images/fondoContacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg__form .form__container {
+  background-color: #29304d9a;
+  height: 75rem;
+  width: 90%;
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.bg__form .form__container .container__field {
+  margin: 1rem;
+}
+.bg__form .form__container .container__field label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+.bg__form .form__container .container__field textarea {
+  resize: none;
+}
+.bg__form .form__container .container__field .field__input {
+  width: 100%;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+.bg__form .form__container .container__button {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.bg__form .form__container .container__button .button__form {
+  background-color: #1f2541;
+  max-width: 80%;
+  color: white;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 1rem;
+  width: 30rem;
+  border: none;
+}
+.bg__form .form__container .container__button .button__form:hover {
+  cursor: pointer;
+  transform: translateY(-3%);
+}
+.bg__form .form__location {
+  display: flex;
+  width: 100%;
+  height: 55rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #313544;
+}
+.bg__form .form__location .location__map {
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 2rem;
+  max-width: 40%;
+  filter: invert(90%);
+}
+.bg__form .form__location .location__schedule {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  color: #fff;
+}
+.bg__form .form__location .location__schedule .schedule__text {
+  margin: 1rem;
+}
+.bg__form .form__location .location__schedule .schedule__text h2 {
+  color: #fabe3d;
+  font-size: 2.5rem;
+}
+.bg__form .form__location .location__schedule .schedule__text p {
+  font-size: 1.8rem;
+}
+.bg__form .form__location .location__schedule .schedule__timetable {
+  margin: 1rem;
+}
+.bg__form .form__location .location__schedule .schedule__timetable h2 {
+  color: #fabe3d;
+  font-size: 2.5rem;
+}
+.bg__form .form__location .location__schedule .schedule__timetable h3 {
+  color: #f8cf75;
+  font-size: 2rem;
+}
+.bg__form .form__location .location__schedule .schedule__timetable p {
+  font-size: 1.8rem;
+}
+
+/*Mediaqueries*/
+@media screen and (max-width: 600px) {
+  .navigation .navigation__containerIcon .submenu #carrito {
+    right: 50;
+  }
+
+  #titles {
+    width: 100%;
+    height: 20rem;
+  }
+  #titles h1 {
+    font-size: 2.2rem;
+  }
+
+  /*inicio*/
+  .index .index__history {
+    display: flex;
+    flex-direction: column;
+  }
+  .index .index__history .history__text {
+    margin: 2rem;
+  }
+
+  /*experiencias*/
+  .experiencias__bg .gridexperiencias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .experiencias__bg .gridexperiencias .gridexperiencias__column,
+.experiencias__bg .gridexperiencias .gridexperiencias__column2,
+.experiencias__bg .gridexperiencias .gridexperiencias__column3 {
+    width: 85%;
+    margin: 1.5rem;
+  }
+
+  /*Novedades*/
+  .new .carousel-inner {
+    max-width: 90%;
+  }
+  .new .carousel-inner .carousel-item__news {
+    flex-direction: column;
+    width: 85%;
+  }
+  .new .carousel-inner .carousel-item__news img {
+    max-width: 90%;
+  }
+  .new .carousel-inner .carousel-item__news .text__button {
+    padding: 1rem;
+    max-width: 70%;
+  }
+  .new .new__container .container__news {
+    flex-direction: column;
+    text-align: center;
+  }
+  .new .new__container .container__news img {
+    max-width: 95%;
+    margin: 3rem auto;
+  }
+  .new .new__container .container__news p {
+    word-spacing: 0.1rem;
+  }
+  .new .new__container .container__news .text__button {
+    width: 90%;
+  }
+
+  /*Formulario*/
+  .bg__form .form__container {
+    height: 80rem;
+  }
+  .bg__form .form__container .container__button {
+    max-width: 100%;
+  }
+  .bg__form .form__location {
+    flex-direction: column;
+    height: 65rem;
+  }
+  .bg__form .form__location .location__map {
+    max-width: 90%;
+    height: 35rem;
+  }
+  .bg__form .form__location .location__schedule {
+    flex-direction: column;
+    text-align: center;
+  }
+  .bg__form .form__location .location__schedule .schedule__text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .bg__form .form__location .location__schedule .schedule__text p {
+    font-size: 1.5rem;
+  }
+  .bg__form .form__location .location__schedule .schedule__timetable h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .bg__form .form__location .location__schedule .schedule__timetable h3 {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .bg__form .form__location .location__schedule .schedule__timetable p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .navigation .navigation__containerIcon .submenu #carrito {
+    right: 50;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .index .index__history {
+    display: flex;
+    flex-direction: column;
+  }
+  .index .index__history .history__text {
+    margin: 2rem;
+  }
+
+  /*experiencias*/
+  .experiencias__bg .gridexperiencias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .experiencias__bg .gridexperiencias .gridexperiencias__column,
+.experiencias__bg .gridexperiencias .gridexperiencias__column2,
+.experiencias__bg .gridexperiencias .gridexperiencias__column3 {
+    width: 85%;
+    margin: 1.5rem;
+  }
+  .experiencias__bg .gridexperiencias .gridexperiencias__intro {
+    height: 25rem;
+  }
+  .experiencias__bg .gridexperiencias .gridexperiencias__intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .experiencias__bg .gridexperiencias .gridexperiencias__intro p {
+    font-size: 1.5rem;
+  }
+
+  /*Novedades*/
+  .new .carousel-inner {
+    max-width: 90%;
+  }
+  .new .carousel-inner .carousel-item__news {
+    flex-direction: column;
+    width: 85%;
+  }
+  .new .carousel-inner .carousel-item__news .text__button {
+    padding: 1rem;
+    max-width: 70%;
+  }
+  .new .new__container .container__news {
+    flex-direction: column;
+    text-align: center;
+  }
+  .new .new__container .container__news img {
+    margin: 3rem auto;
+  }
+  .new .new__container .container__news p {
+    word-spacing: 0.1rem;
+  }
+  .new .new__container .container__news .text__button {
+    width: 90%;
+  }
+
+  /*Formulario*/
+  .bg__form .form__container {
+    height: 75rem;
+  }
+  .bg__form .form__container .button__form {
+    max-width: 70%;
+  }
+  .bg__form .form__location {
+    flex-direction: column;
+    height: 72rem;
+  }
+  .bg__form .form__location .location__map {
+    max-width: 60%;
+  }
+  .bg__form .form__location .location__schedule {
+    flex-direction: column;
+    text-align: center;
+  }
+  .bg__form .form__location .location__schedule .schedule__text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .bg__form .form__location .location__schedule .schedule__text p {
+    font-size: 1.5rem;
+  }
+  .bg__form .form__location .location__schedule .schedule__timetable h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .bg__form .form__location .location__schedule .schedule__timetable h3 {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .bg__form .form__location .location__schedule .schedule__timetable p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navigation .navigation__responsiveIcon {
+    display: none;
+  }
+  .navigation .navigation__list {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .navigation .navigation__list .list__element {
+    justify-content: space-between;
+    float: left;
+  }
+  .navigation .navigation__list .list__element .element__link {
+    padding: 1.2rem;
+  }
+
+  .navigation .navigation__containerIcon .submenu #carrito {
+    right: 50;
+  }
+
+  /*Novedades*/
+  .news__bg .news__container {
+    flex-direction: column;
+    text-align: center;
+    align-items: unset;
+  }
+  .news__bg .news__container img {
+    margin: 3rem auto;
+  }
+  .news__bg .news__container .news__button {
+    width: 40%;
+  }
+
+  /*Contacto*/
+  .bg__form .form__location {
+    height: 75rem;
+  }
+  .bg__form .form__location .location__map {
+    width: 70%;
+    transition: none;
+    margin: 0.5rem;
+    padding: 1.5rem;
+  }
+  .bg__form .form__location .location__map:hover {
+    transform: none;
+  }
+}
+@media screen and (min-width: 960px) {
+  .navigation {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navigation .navigation__linkLogo {
+    width: 25%;
+  }
+  .navigation .linkLogo__logo {
+    width: 100%;
+  }
+  .navigation .navigation__list {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  .navigation .navigation__list .list__element {
+    padding: 0.3rem;
+  }
+  .navigation .navigation__list .list__element .element__link {
+    font-size: 2rem;
+  }
+
+  /*Index*/
+  .index .index__history .history__text {
+    width: 80%;
+  }
+  .index .index__history .history__text .history__image {
+    width: 70%;
+  }
+
+  /*Novedades*/
+  .new .carousel-inner .carousel-item__news {
+    flex-direction: row;
+    width: 85%;
+  }
+  .new .carousel-inner .carousel-item__news .text__button {
+    padding: 1rem;
+    max-width: 40%;
+  }
+  .new .new__container .container__news {
+    flex-direction: row;
+    align-items: center;
+  }
+  .new .new__container .container__news img {
+    margin: 3rem auto;
+  }
+  .new .new__container .container__news p {
+    margin: 0 3rem;
+  }
+  .new .new__container .container__news .text__button {
+    width: 90%;
+  }
+
+  /*Experiencias*/
+  .experiencias__bg .gridexperiencias .gridexperiencias__column .gridexperiencias_actividad,
+.experiencias__bg .gridexperiencias .gridexperiencias__column2 .gridexperiencias_actividad,
+.experiencias__bg .gridexperiencias .gridexperiencias__column3 .gridexperiencias_actividad {
+    height: 75rem;
+  }
+
+  /*contact*/
+  .bg__form .form__location {
+    flex-direction: row;
+    height: 40rem;
+  }
+  .bg__form .form__location .location__map {
+    max-width: 45%;
+  }
+  .bg__form .form__location .location__schedule .schedule__timetable {
+    flex-direction: row;
+  }
+
+  .navigation .navigation__containerIcon .submenu #carrito {
+    right: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /*tienda*/
+  .shop__bg .shop__container {
+    flex-wrap: nowrap;
+  }
+
+  .index .index__history {
+    display: grid;
+  }
+
+  .experiencias__bg .gridexperiencias {
+    display: grid;
+  }
+
+  .bg__form .form .container__button {
+    display: flex;
+  }
+  .bg__form .form__location .location__map {
+    width: 55rem;
+  }
+
+  .navigation .navigation__containerIcon .submenu #carrito {
+    right: 0;
+  }
+}

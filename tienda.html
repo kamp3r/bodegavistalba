@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="images/favicon.ico"/> 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap" rel="stylesheet">    
-  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Tienda de Bodega Vistalba</title>
 </head>
 
@@ -37,8 +37,33 @@
         </li>
     </ul>
     <div class="navigation__containerIcon">
-      <a href=""><img class="containerIcon__icon" src="images/user.png" alt="Mi Cuenta"></a>
-      <a href=""><img class="containerIcon__icon" src="images/carrito-de-compras.png" alt="Mi Carrito"/></a>
+      <ul>
+          <li class="submenu">
+            <img class="containerIcon__icon" src="images/carrito-de-compras.png" alt="Mi Carrito"/>
+            <div id="carrito">
+                                        
+              <table id="lista-carrito">
+                  <thead>
+                      <tr>
+                          <th></th>
+                          <th>Nombre</th>
+                          <th>Precio</th>
+                          <th>Cantidad</th>
+                          <th></th>
+                      </tr>
+                  </thead>
+                  <tbody id="bodyCarrito"></tbody>
+                  <tfoot>
+                    <th>Total</th>
+                    <th>$ <span></span></th>
+                </tfoot>
+              </table>
+
+              <a href="#" id="vaciar-carrito" class="botonVaciar">Vaciar Carrito</a>
+            </div>
+          </li>
+      </ul>    
+      
     </div>
   </header>
 
@@ -49,7 +74,7 @@
       <p>Cada uno de ellos, te enseñara un camino..</p>
     </div>  
 
-    <div class="shop__flex">
+    <div id="listadoVinos" class="shop__flex">
       <div class="flex__card">
         <div class="card__animated">
           <div class="animated__side">
@@ -66,9 +91,9 @@
           <div class="animated__bside">
             <img class="side__wineimg" src="images/botella.png" alt="Botella Cabernet Franc">
             <div class="side__wineinfo">
-              <h2>Cabernet Franc - Vieja Cosecha</h2>
-              <p>$400 p/u</p>
-              <button class="bside__buybutton">Comprar</button>
+              <h2>Cabernet Franc - <span>Vieja Cosecha</span></h2>
+              <p>$<span>975</span></p>
+              <button class="bside__buybutton agregarCarrito" data-id="1">Agregar al carrito</button>
             </div>
           </div>      
         </div>
@@ -90,9 +115,9 @@
           <div class="animated__bside">
             <img class="side__wineimg" src="images/botella2.png" alt="Botella Suavignon Blanc">
             <div class="side__wineinfo">
-              <h2>Suavignon Blanc - Navio</h2>
-              <p>$400 p/u</p>
-              <button class="bside__buybutton">Comprar</button>
+              <h2>Suavignon Blanc - <span>Navio</span></h2>
+              <p>$<span>550</span></p>
+              <button class="bside__buybutton agregarCarrito" data-id="2">Agregar al carrito</button>
             </div>
           </div>      
         </div>
@@ -114,9 +139,9 @@
           <div class="animated__bside">
             <img class="side__wineimg" src="images/botella3.png" alt="Botella Cabernet Suavignon">
             <div class="side__wineinfo">
-              <h2>Cabernet Suavignon - Espinado</h2>
-              <p>$400 p/u</p>
-              <button class="bside__buybutton">Comprar</button>
+              <h2>Cabernet Suavignon - <span>Espinado</span></h2>
+              <p>$<span>650</span></p>
+              <button class="bside__buybutton agregarCarrito" data-id="3">Agregar al carrito</button>
             </div>
           </div>      
         </div>
@@ -138,9 +163,9 @@
           <div class="animated__bside">
             <img class="side__wineimg" src="images/botella4.png" alt="Botella Chardonnay">
             <div class="side__wineinfo">
-              <h2>Chardonnay - Ornamento</h2>
-              <p>$400 p/u</p>
-              <button class="bside__buybutton">Comprar</button>
+              <h2>Chardonnay - <span>Ornamento</span></h2>
+              <p>$<span>830</span></p>
+              <button class="bside__buybutton agregarCarrito" data-id="4">Agregar al carrito</button>
             </div>
           </div>      
         </div>
@@ -163,6 +188,7 @@
     </ul>
     <p class="footer__text">Copyright 2021®</p>
   </footer>
+  <script src="JS/cart.js"></script>
 </body>
 
 </html>
